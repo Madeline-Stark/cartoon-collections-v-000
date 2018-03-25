@@ -23,7 +23,7 @@ def find_the_cheese(snacks)
 end
 
 #array = []
-#array >> snacks.include?("cheddar", "gouda", "camembert")
+#array << snacks.include?("cheddar", "gouda", "camembert")
 #array
 
 #snacks.collect do |snack|
