@@ -20,9 +20,13 @@ end
 
 def find_the_cheese(snacks)
 array = []
-array << snacks.include?("cheddar")
-array << snacks.include?("gouda")
-array << snacks.include?("camembert")
+if snacks.include?("cheddar")
+  array << snacks.include?("cheddar")
+elsif snacks.include?("gouda")
+  array << snacks.include?("gouda")
+elsif snacks.include?("camembert")
+  array << snacks.include?("camembert")
+end
 array
 end
 
