@@ -16,16 +16,16 @@ def long_planeteer_calls(calls)
   calls.any? { |call| call.length > 4 }
 end
 
+
+
 def find_the_cheese(snacks)
-  array = []
-  array << snacks.include?("cheddar", "gouda", "camembert")
-  array
+array = []
+array << snacks.include?("cheddar", "gouda", "camembert")
+array
 end
 
-#array = []
-#array << snacks.include?("cheddar", "gouda", "camembert")
-#array
 
 #snacks.collect do |snack|
   #snack.include?("cheddar", "gouda", "camembert")
 #end
+
