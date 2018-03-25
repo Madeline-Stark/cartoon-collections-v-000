@@ -45,7 +45,7 @@ snacks.collect do |snack|
   if snack.include?("cheddar")
   elsif snack.include?("gouda")
   elsif snack.include?("camembert")
-  else 
+  else
     nil
   end
 end
