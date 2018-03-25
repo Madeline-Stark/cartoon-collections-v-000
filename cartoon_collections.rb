@@ -18,19 +18,17 @@ end
 
 
 
-#def find_the_cheese(snacks)
-#array = []
-#if snacks.include?("cheddar")
-  #array << snacks.include?("cheddar")
-#elsif snacks.include?("gouda")
-  #array << snacks.include?("gouda")
-#elsif snacks.include?("camembert")
-  #array << snacks.include?("camembert")
-#else
-  #nil
-#end
-#array
-#end
+def find_the_cheese(snacks)
+if snacks.include?("cheddar")
+  "cheddar"
+elsif snacks.include?("gouda")
+  "gouda"
+elsif snacks.include?("camembert")
+  "camembert"
+else
+  nil
+end
+end
 
 #def find_the_cheese(snacks)
 #snacks.collect do |snack|
@@ -39,14 +37,3 @@ end
   #snack.include?("camembert")
 #end
 #end
-
-def find_the_cheese(snacks)
-snacks.collect do |snack|
-  if snack.include?("cheddar")
-  elsif snack.include?("gouda")
-  elsif snack.include?("camembert")
-  else
-    nil
-  end
-end
-end
